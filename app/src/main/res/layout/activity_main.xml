@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/botLife3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+
+        <ImageView
+            android:id="@+id/botLife2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+
+        <ImageView
+            android:id="@+id/botLife1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Gép"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Játékos"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/playerLife1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+
+        <ImageView
+            android:id="@+id/playerLife2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+
+        <ImageView
+            android:id="@+id/playerLife3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart2" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Döntetlenek száma: 0"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tie"/>
+
+    <ImageView
+        android:id="@+id/ImageViewBot"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/rock" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A gép választása"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/ImageViewPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/rock" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A te választásod"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/rock"
+            android:id="@+id/rock"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/paper"
+            android:id="@+id/paper"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/scissors"
+            android:id="@+id/scissors"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kő"
+            android:textSize="25dp"
+            android:id="@+id/PlayerRock">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Papír"
+            android:textSize="25dp"
+            android:id="@+id/PlayerPaper">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Olló"
+            android:textSize="25dp"
+            android:id="@+id/PlayerScissors">
+        </Button>
+    </LinearLayout>
+        -->
